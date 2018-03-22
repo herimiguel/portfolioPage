@@ -1,0 +1,94 @@
+#container{
+background-color: grey;
+  height: 1200px;
+  width: 1200px;
+
+}
+button{
+background-color: green;
+
+}
+
+
+#box-1 {
+
+  background-color: purple;
+  display: inline-block;
+height: 1000px;
+width: 1200px;
+  vertical-align: top;
+}
+#box-2{
+  background-color: grey;
+  image-resolution: from-image;
+  margin-top: 5px ;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#box-3 {
+  background-color: white;
+  display:inline-block;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+  height: 260px;
+  width: 600px;
+  border-radius: 1px;
+  margin-bottom: 10px;
+}
+#box-4,#box-5, #box-6, #box-7, #box-8, #box-9{
+  display: inline-block;
+  width: 360px;
+  height: 340px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /*padding: 0px;*/
+
+}
+
+h1{
+  background-color: grey;
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+
+
+}
+h2{
+  font-size: 25px;
+  margin-left: 400px;
+  display: inline-block;
+}
+
+#box-4{
+  background-color: pink;
+  vertical-align: top;
+  border-radius: 1px;
+}
+#box-5{
+  background-color: pink;
+  vertical-align: top;
+  border-radius: 1px;
+}
+#box-6{
+  background-color: pink;
+  vertical-align: top;
+  border-radius: 1px;
+}
+#box-7{
+  background-color: pink;
+  vertical-align: top;
+  border-radius: 1px;
+}
+#box-8{
+  background-color: pink;
+  vertical-align: top;
+  border-radius: 1px;
+}
+#box-9{
+  background-color: pink;
+  vertical-align: top;
+  border-radius: 1px;
+}

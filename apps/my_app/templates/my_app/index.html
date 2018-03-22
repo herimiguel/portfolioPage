@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    {% load static %}
+    <title>Heriberto Miguel's Portfolio Page</title>
+    <!-- Bootstrap core CSS -->
+    <link href=" {% static 'my_app/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href=" {% static 'my_app/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Rammetto+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href=" {% static 'my_app/css/agency.min.css' %}" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Heriberto Miguel</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li> -->
+            <li class="nav-item">
+              
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <!-- <div class="intro-lead-in">Heriberto Miguel</div> -->
+          <div class="text-uppercase imnotsure">HERIBERTO MIGUEL</div>
+          <div class="text-uppercase status"> </div>
+          <div class="text-uppercase status"> WEB DEVELOPER</div>
+          <!-- <div class="intro-heading text-uppercase status">WEB DEVELOPER</div> -->
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">my projects</a>
+        </div>
+      </div>
+    </header>
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Portfolio</h2>
+            <h3 class="section-subheading text-muted">Heriberto Miguel's Projects</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioBV">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-anchor fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{% static 'my_app/img/projects/buenaVista.png' %}" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Buena Vista</h4>
+              <p class="text-muted">Python: Django</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioSportify">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-anchor fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{% static 'my_app/img/projects/Sportify.png' %}" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Sportify</h4>
+              <p class="text-muted">Python: Django</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioWeddings">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-anchor fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="{% static 'my_app/img/projects/weddings.png' %}" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Wedding Planner</h4>
+              <p class="text-muted">C#: Entity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12  col-sm-12 text-center">
+            <img class=" col-lg-6 col-md-6  col-sm-12 rounded-circle about-pic2" src="{% static 'my_app/img/HeribertoM.jpeg' %}" alt="">
+          </div>
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">HERIBERTO "EDDIE" MIGUEL</h2>
+        </div>
+            
+            <div class="col-lg-12 col-md-12  col-sm-12">
+                <!-- <img class=" rounded-circle about-pic" src="{% static 'my_app/img/HeribertoM.jpeg' %}" alt=""> -->
+            <h3 class="col-lg-12 col-md-12  col-sm-12 section-subheading text-muted">Driven, goal oriented Full Stack Developer who is currently 
+              in search of career opportunities as a Front/Back-End Web Developer. I am a recent graduate 
+              of Coding Dojo, a 14-week Coding Boot Camp. I have a real passion for coding, and am looking 
+              for opportunities' to expand my skills. I want to grow as a person, as well as a developer. 
+              Comfortable collaborating on intellectually and culturally diverse teams to complete assignments,
+              exceed goals and elevate standards. Possesses a strong people first orientation with a commitment
+               to professional ethics.
+            </h3>
+            <div class="col-lg-12 col-md-12  col-sm-12 text-center">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/CSS.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/bootstrap.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/HTML.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/jQuery.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/JavaScript.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/python.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/mysql.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/django.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/MEAN.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/mongodb.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/ajax.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/angular.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/nodejs.png' %}" alt=""> 
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/expressjs.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/LAMP.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/materialize.png' %}" alt="">             
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/c-sharp.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/socket.png' %}" alt="">
+              <img class="langPic" src="{% static 'my_app/img/picsForMyPortfolio/sqlite.png' %}" alt="">
+ 
+              
+            </div>
+
+            <!-- <h3 class="about-heading" >Early career</h3>            
+            <h3 class="col-lg-12 col-md-12  col-sm-12 section-subheading text-muted">
+              Coming from Played a fundamental role in achieving an ambitious growth objective related to sales.
+              Greeted and engaged with the customer at all times.
+              Offered food and beverage suggestions and added on additional items when engaging with customers.
+              Familiarized myself with the wants and needs of our regular guests to provide the highest level of customer service possible.
+              Strove to be restaurants' top seller              
+              Led all team members in the efficient and profitable operation of Emilio's
+              Managed the daily operations of Emilio's Tapas from open to close 
+              Trained and motivated team members daily to deliver the highest level of service
+              Developed and executed sales and profit plans that were in-line with budgetary goals
+              Executed the replenishment tasks with attention to detail ensuring all products were available
+              Completed Bar inventory on a weekly basis
+              Performed all duties essential to the owning and operating of a restaurant
+              incorporated, leased, renovated, supplied, furnished and decorated a casual/fine dinning restaurant
+              Utilized strong leadership and strategic planning skills to ensure the smooth running of restaurant operations
+              Responsible for staffing, payroll, inventory and relationships with suppliers
+              Maintained quality and consistency on food recipes by using fresh products and ingredients
+              </h3> -->
+          </div> 
+          <!-- <div class="col-lg-12 col-md-12  col-sm-12">
+              <h3 class="col-lg-12 col-md-12  col-sm-12 section-subheading text-muted">Driven, goal oriented Full Stack Developer who is currently 
+                  in search of career opportunities as a Front/Back-End Web Developer. I am a recent graduate 
+                  of Coding Dojo, a 14-week Coding Boot Camp. I have a real passion for coding, and am looking 
+                  for opportunities' to expand my skills. I want to grow as a person, as well as a developer. 
+                  Comfortable collaborating on intellectually and culturally diverse teams to complete assignments,
+                  exceed goals and elevate standards. Possesses a strong people first orientation with a commitment
+                   to professional ethics.
+                </h3>           
+          </div> -->
+      </div>
+  </div>  
+  </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading text-uppercase">CONTACT</h2>
+              <h2 class="section-heading text-uppercase">HERIBERTO MIGUEL</h2>
+              <h3 class="section-subheading text-muted"></h3>
+            </div>
+             <div class="col-md-12 appear">
+              <ul class="list-inline social-buttons">
+                  <li class="col-md-2 list-inline-item">
+                    <a href="mailto:herimiguel0316@icloud.com" ><i class="fa fa-envelope-o fa-3x mb-3"></i>
+                    </a>
+                  </li>
+                  <li class="col-md-2 list-inline-item">
+                    <a href="https://twitter.com/herimiguel8" target="_blank"><i class="fa fa-twitter fa-3x mb-3"></i>
+                    </a>
+                  </li>
+                  <li class="col-md-2 list-inline-item">
+                    <a href="https://www.facebook.com/eddie.miguel" target="_blank"><i class="fa fa-facebook fa-3x mb-3"></i>
+                    </a>
+                  </li>
+                  <li class="col-md-2 list-inline-item">
+                    <a href="https://www.linkedin.com/in/heribertomiguel" target="_blank"><i class="fa fa-linkedin fa-3x mb-3 "></i>
+                    </a>
+                  </li>
+                  <li class="col-md-2 list-inline-item mr-auto text-center">
+                    <a href="https://github.com/herimiguel" target="_blank"><i class="fa fa-github fa-3x mb-3 "></i>
+                    </a>
+                  </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Heriberto Miguel 2018</span>
+          </div>
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
+            <!-- <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioBV" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Buena Vista Properties</h2>
+                  <p class="item-intro text-muted">Python: Django</p>
+                  <a href="http://www.buenavistamyhome.com" target="blank"><img class="img-thumbnail" src="{% static 'my_app/img/projects/thumbnailBV.png' %}" alt=""></a>
+                  <p>Worked in a team of two to build out a site that will allow the user to buy their dream home. User can filter their home search by price, location or by type of home. User can calculate their loan, check their credit score with Credit Karma, Email the realtor and connect with the realtor on facebook 
+                  </p>
+                  <ul class="list-inline">
+                    <li>Date: January 2018</li>
+                    <li>GitHub: <a href="https://github.com/herimiguel/buenaVista">https://github.com/herimiguel/buenaVista</a></li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioSportify" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Sportify</h2>
+                  <p class="item-intro text-muted">Python: Django</p>
+                  <img class="img-thumbnail" src="{% static 'my_app/img/projects/thumbnailSportify.png' %}" alt="">
+                  <p>Worked in a team of 2 to build out a site similar in functionality to Spotify
+                    The project was written in Python with the Django framework and MySQL. 
+                    I was responsible for creating models, views and urls. Project allows the user to Register and Login before being able to perform the simple CRUD functionality. In this project, we were able to work with three differrent apps within the main project. </p>
+                  <ul class="list-inline">
+                    <li>Date: November 2017</li>
+                    <li>GitHub: <a href="https://github.com/herimiguel/Sportify">https://github.com/herimiguel/Sportify</a></li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioWeddings" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Wedding Planner</h2>
+                  <p class="item-intro text-muted">C#: Entity</p>
+                  <img class="img-thumbnail" src="{% static 'my_app/img/projects/thumbnailWeddings.png' %}" alt="">
+                  <p>Wedding Planner allows the user to Register and Login. User can create a wedding, RSV and view attendee list. A Google API displays the Wedding's address on a map.
+                    Project allows the user to perform the simple CRUD functionality.  
+                   </p>
+                  <ul class="list-inline">
+                    <li>Date: December 2017</li>
+                    <li>GitHub: <a href="https://github.com/herimiguel/WeddingPlanner">https://github.com/herimiguel/WeddingPlanner</a></li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'my_app/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'my_app/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'my_app/vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <!-- Contact form JavaScript -->
+    <script src="{% static 'my_app/js/jqBootstrapValidation.js' %}"></script>
+    <!-- Custom scripts for this template -->
+    <script src="{% static 'my_app/js/agency.min.js' %}"></script>
+  </body>
+</html>
